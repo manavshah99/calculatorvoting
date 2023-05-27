@@ -1,0 +1,7 @@
+#pip install -r requirements.txt
+#py manage.py migrate -once we add app into settings.py
+#py manage.py makemigrations members-To create a database.
+#py manage.py migrate-To create a table.
+#py manage.py sqlmigrate members 0001-To view the SQL statement that was executed from the migration.
+#{% %}They are Django Tags, telling Django to perform some programming logic inside these brackets.
+#Do you see Django block Tag inside the <title> element, and the <body> element?They are placeholders, telling Django to replace this block with content from other sources.
